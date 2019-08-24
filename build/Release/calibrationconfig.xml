@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<calibrationsets>
+	<_>
+		<cameramapping>
+			"000785160847"  <!-- 0 IR -->
+			"000785160847"  <!-- 1 Color -->
+			"003817260847"  <!-- 2 IR -->
+			"003817260847"  <!-- 3 Color -->
+			"003643560847"  <!-- 4 IR -->
+			"003643560847"  <!-- 5 Color -->
+			"000807660847"  <!-- 6 IR -->
+			"000807660847"  <!-- 7 Color -->
+		</cameramapping>		
+		<name>"SET 0: Kinects system external (and internal)."</name>
+		<type>"system"</type>
+		<pattern>"noise"</pattern>
+		<n>5</n>
+		<combinations>
+			<_>
+				<n>8</n>
+				<flirs></flirs>
+				<kinects>"003817260847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+			<_>
+				<n>8</n>
+				<flirs></flirs>
+				<kinects>"003643560847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+			<_>
+				<n>8</n>
+				<flirs></flirs>
+				<kinects>"000807660847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+			<_>
+				<n>8</n>
+				<flirs></flirs>
+				<kinects>"000785160847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+			<_>
+				<flirs></flirs>
+				<kinects>"000785160847" "003817260847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+			<_>
+				<flirs></flirs>
+				<kinects>"000785160847" "003643560847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+			<_>
+				<flirs></flirs>
+				<kinects>"000785160847" "000807660847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+			<_>
+				<flirs></flirs>
+				<kinects>"003817260847" "003643560847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+			<_>
+				<flirs></flirs>
+				<kinects>"003643560847" "000807660847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+			<_>
+				<flirs></flirs>
+				<kinects>"000807660847" "003817260847"</kinects>
+				<kinectframes>"IR" "Color"</kinectframes>
+			</_>
+		</combinations>
+	</_>
+	<_>
+		<cameramapping>
+			"192.168.1.104" <!-- 0 -->
+			"192.168.1.101" <!-- 1 -->
+			"192.168.1.102" <!-- 2 -->
+			"192.168.1.103" <!-- 3 -->
+		</cameramapping>		
+		<name>"SET 1: Flir internals"</name>
+		<type>"internal"</type>
+		<pattern>"checkerboard"</pattern>
+		<n>10</n>
+		<combinations>
+			<_>
+				<flirs>"192.168.1.104"</flirs>
+			</_>
+			<_>
+				<flirs>"192.168.1.101"</flirs>
+			</_>
+			<_>
+				<flirs>"192.168.1.102"</flirs>
+			</_>
+			<_>
+				<flirs>"192.168.1.103"</flirs>
+			</_>
+		</combinations>
+	</_>	
+	<_>
+		<cameramapping>
+			"000785160847"  <!-- 0 IR -->
+			"000785160847"  <!-- 1 Color -->
+			"192.168.1.104" <!-- 2 -->
+			"003817260847"  <!-- 3 IR -->
+			"003817260847"  <!-- 4 Color -->
+			"192.168.1.101" <!-- 5  -->
+			"003643560847"  <!-- 6 IR -->
+			"003643560847"  <!-- 7 Color -->
+			"192.168.1.102" <!-- 8  -->
+			"000807660847"  <!-- 9 IR -->
+			"000807660847"  <!-- 10 Color -->
+			"192.168.1.103" <!-- 11 -->
+		</cameramapping>		
+		<name>"SET 2: PAIRWISE Flir to Kinect Color 1:1 (external only)"</name>
+		<type>"pairwise"</type>
+		<pattern>"checkerboard"</pattern>
+		<n>7</n>
+		<combinations>
+			<_>
+				<flirs>"192.168.1.104"</flirs>
+				<kinects>"000785160847"</kinects>
+				<kinectframes>"Color"</kinectframes>
+			</_>
+			<_>
+				<flirs>"192.168.1.101"</flirs>
+				<kinects>"003817260847"</kinects>
+				<kinectframes>"Color"</kinectframes>
+			</_>
+			<_>
+				<flirs>"192.168.1.102"</flirs>
+				<kinects>"003643560847"</kinects>
+				<kinectframes>"Color"</kinectframes>
+			</_>
+			<_>
+				<flirs>"192.168.1.103"</flirs>
+				<kinects>"000807660847"</kinects>
+				<kinectframes>"Color"</kinectframes>
+			</_>
+		</combinations>
+	</_>	
+</calibrationsets>
+</opencv_storage>
